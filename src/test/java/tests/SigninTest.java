@@ -11,7 +11,7 @@ public class SigninTest extends BaseTest {
         driver.get("https://accounts.zoho.in/signin?servicename=ZohoRecruit&signupurl=https://www.zoho.com/recruit/signup.html");
         Signin signin = new Signin(driver);
 
-        signin.enterEmailID("sajkashr37@gmail.com");
+        signin.enterEmailID("sajkashr@gmail.com");
         signin.clickNext();
         signin.printErrorMessageIfAny();   // prints error if shown
         Thread.sleep(2000);                // optional: for visual confirmation
