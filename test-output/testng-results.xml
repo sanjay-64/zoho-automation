@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-21T23:42:09 IST" name="My Automation Suite" finished-at="2025-07-21T23:42:32 IST" duration-ms="22931">
+    <groups>
+    </groups>
+    <test started-at="2025-07-21T23:42:09 IST" name="Zoho Automation Tests" finished-at="2025-07-21T23:42:32 IST" duration-ms="22931">
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTest@7a8c8dcf]" started-at="2025-07-21T23:42:27 IST" name="setup" finished-at="2025-07-21T23:42:28 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignupPage()[pri:0, instance:tests.SignupTest@7a8c8dcf]" started-at="2025-07-21T23:42:28 IST" name="testSignupPage" finished-at="2025-07-21T23:42:32 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SignupTest@7a8c8dcf]" started-at="2025-07-21T23:42:32 IST" name="teardown" finished-at="2025-07-21T23:42:32 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.SigninTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SigninTest@6a78afa0]" started-at="2025-07-21T23:42:09 IST" name="setup" finished-at="2025-07-21T23:42:11 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signinPageTest()[pri:0, instance:tests.SigninTest@6a78afa0]" started-at="2025-07-21T23:42:11 IST" name="signinPageTest" finished-at="2025-07-21T23:42:26 IST" duration-ms="15605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinPageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SigninTest@6a78afa0]" started-at="2025-07-21T23:42:26 IST" name="teardown" finished-at="2025-07-21T23:42:27 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SigninTest -->
+    </test> <!-- Zoho Automation Tests -->
+  </suite> <!-- My Automation Suite -->
+</testng-results>
